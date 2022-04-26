@@ -12,4 +12,25 @@ public class prueba {
     
     String nombre;
     int carner; 
+
+    public prueba(String nombre, int carner) {
+        this.nombre = nombre;
+        this.carner = carner;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getCarner() {
+        return carner;
+    }
+
+    public void setCarner(int carner) {
+        this.carner = carner;
+    }
 }
